@@ -1,0 +1,10 @@
+#ifndef NUM_METHODS_H
+#define NUM_METHODS_H
+
+#define DELTA_T 0.1
+#define CF_COEFF_ALPHA 0.85
+#define CF_COEFF_BETA (1.0 - CF_COEFF_ALPHA)
+#define BACK_EULER_OUT(Y, U) ((Y) + (DELTA_T*(U)))
+#define COMPLEMENTARY_FILTER(G, A) (CF_COEFF_BETA * G + CF_COEFF_ALPHA * A)
+
+#endif
