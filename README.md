@@ -5,15 +5,18 @@ For people looking forward to tinkering with this, the firmware is nothing but C
   |\
   |-> desktop_scripts\
   |   (Python scripts to be run parallel on the host computer. For communication and data acuisistion from sensor network)\
+  \
   |->-= 3Drender.py\
   |->-= Serial-link.py\
   |\
   |-> firmware\
   |   (Arduino firmware, C++ libraries for math and PlatformIO configuration folders)\
+  \
   |->-> .pio\
   |->-> .vscode\
   |->-> include\
         (PlatformIO configuration folder- .pio, and MS Visual Studio Code developement environment folder- .vscode)\
+  \
   |->-> lib\
   |->->-> IMU_AL\
   |->->->-= embed_IMU_layer.h\
@@ -28,4 +31,4 @@ For people looking forward to tinkering with this, the firmware is nothing but C
   |->->->-= vars.h\
   |->-> src\
   |->-> test\
-  |->-= .gitignore\
+  |->-= .gitignore
