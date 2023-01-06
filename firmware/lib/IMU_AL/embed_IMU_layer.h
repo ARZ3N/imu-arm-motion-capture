@@ -61,6 +61,11 @@ typedef struct IMU{
 };
 
 void IMU_INIT(const IMU* MPU, const int16_t addr){
-
+    
+    /* Change contents of this function to
+     * package IMU initialization as a function,
+     * and call it in main() or setup() {arduino}
+     */ 
+    
 }
 #endif
